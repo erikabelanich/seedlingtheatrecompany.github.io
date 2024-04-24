@@ -346,7 +346,7 @@ max-width: 100%; /* Full width on smaller screens */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/Hero40.jpg'); /* Set background image */
+    background-image: url('Hero40.jpg'); /* Set background image */
     background-size: cover; /* Cover the entire jumbotron with the background image */
     background-position: center; /* Center the background image */
     color: white; /* Text color on top of the background image */
@@ -354,12 +354,12 @@ max-width: 100%; /* Full width on smaller screens */
 }
 
 .upcomingshows{
-    background-image: url('../images/upcomingshows.jpg'); /* Set background image */   
+    background-image: url('upcomingshows.jpg'); /* Set background image */   
     
 }
 
 .classoverview{
-    background-image: url('../images/classoverview.jpg'); /* Set background image */   
+    background-image: url('classoverview.jpg'); /* Set background image */   
     
 }
 
