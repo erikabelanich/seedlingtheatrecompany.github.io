@@ -346,7 +346,7 @@ max-width: 100%; /* Full width on smaller screens */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('Hero40.jpg'); /* Set background image */
+    background-image: url('../images/Hero40.jpg'); /* Set background image */
     background-size: cover; /* Cover the entire jumbotron with the background image */
     background-position: center; /* Center the background image */
     color: white; /* Text color on top of the background image */
@@ -363,16 +363,19 @@ max-width: 100%; /* Full width on smaller screens */
     
 }
 
+
 .shoppage{
     background-image: url('shopbanner.jpg'); /* Set background image */   
     
 }
 
 
+
 .calendarpage{
     background-image: url('calendarbanner.jpg'); /* Set background image */   
     
 }
+
 
 
 
@@ -499,6 +502,8 @@ padding: 25px;
 
 
 
+
+
 /* Shop */
 
 
@@ -509,7 +514,6 @@ padding: 25px;
   
   .col {
     flex: 1;
-    margin-right: 20px;
     position: relative;
   }
   
@@ -524,15 +528,24 @@ padding: 25px;
   }
   
   .button {
+    font-family: "lato-bold", sans-serif;
+    text-transform: uppercase;
     position: absolute;
     bottom: 10px;
     right: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #3E8A2A!important;
     color: #fff;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
+       border-radius: 8px!important;
+    padding: 10px 20px!important; 
+    font-size: 15px!important;
   }
+
+
+
+.button:hover {
+    background-color: #FAB142!important;
+  }
+
   
   .featured-items {
     display: flex;
@@ -558,9 +571,8 @@ padding: 25px;
   }
   
   .item-info {
-    background-color: #f4f4f4;
-    padding: 10px;
-    text-align: center;
+    padding: 5px;
+    text-align: left;
   }
 
 
@@ -600,6 +612,9 @@ padding: 25px;
 .text-truncate{
     white-space: normal!important;
 }
+
+
+
 
 
 
