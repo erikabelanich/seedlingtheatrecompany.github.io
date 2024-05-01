@@ -488,6 +488,107 @@ padding: 25px;
 
 
 
+/* Shop */
+
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .col {
+    flex: 1;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .col:last-child {
+    margin-right: 0;
+  }
+  
+  .col img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .featured-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .featured-item {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    max-width: calc(50% - 5px);
+    position: relative;
+  }
+  
+  .featured-item:last-child {
+    margin-right: 0;
+  }
+  
+  .featured-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .item-info {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Calendar */
+
+
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
+}
+
+.text-truncate{
+    white-space: normal!important;
+}
 
 
 
