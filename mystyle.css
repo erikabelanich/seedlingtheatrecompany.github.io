@@ -363,6 +363,17 @@ max-width: 100%; /* Full width on smaller screens */
     
 }
 
+.shoppage{
+    background-image: url('shopbanner.jpg'); /* Set background image */   
+    
+}
+
+
+.calendarpage{
+    background-image: url('calendarbanner.jpg'); /* Set background image */   
+    
+}
+
 
 
 
